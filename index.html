@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbe78d63ec.js"></script>
+</head>
+<body>
+    <span id="top"></span>
+   <div class="content"></div>
+    <a class="top-btn" id="top-btn" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="fa-solid fa-arrow-up-long"></i></a>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="logo.png" width= 150px; class="logo">
+                <p class="newspaper">I'm the hero of a thousand stories. I'm a superhero, an assassin a soldier.
+                     I've slain dragons and traveled through portals. I am a spartan, a commander.
+                     A king. I've saved a thousand worlds and countless more lives.
+                     What am I?<h3>I'm a gamer..!!</h3></p>
+                </p>
+            </div>
+            <div class="col col-mt20">
+                <h3>Venue <div class="underline"><span></span></div></h3>
+                <p class="big">
+                <P>Block No. 35</P>
+                <p>Shanti Mittal Auditorium</p>
+                <p>Phagwara, Punjab</p>
+                <p class="email-id">mdsakeel1409@gmail.com</p>
+                <h4>+91-9815251128</h4>
+            </div>
+            <div class="col col-mt20">
+                <h3>Links  <div class="underline"><span></span></div></h3>
+                <p class="big"></p>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Credits</a></li>
+                    <li><a href="">Connect</a></li>
+                </ul>
+            </div>
+            <div class="col col-a col-mt20">
+                <h3>Register Here<div class="underline"><span></span></div></h3>
+                <p class="big"></p>
+             <a href="https://www.google.com" target="_blank" class="color123">Click here to register</a>
+                <div class="social-icons">
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
+                   <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+                   <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+                   <a href="" target="_blank"><i class="fa-brands fa-discord"></i></a> 
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Stratagem @ 2023 - All Rights Reserved</p>
+    </footer>
+    <script>
+      window.onscroll = function()
+{
+    
+    if(window.pageYOffset >0)
+    {
+        document.getElementById('top-btn').style.visibility="visible"
+    }else
+    {
+        document.getElementById('top-btn').style.visibility="hidden";
+    }
+};
+    </script>
+</body>
